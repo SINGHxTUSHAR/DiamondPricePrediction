@@ -1,8 +1,5 @@
 import os
 import sys
-from src.logger import logger_module
-# sys.path.append('C:\Users\dell\Desktop\DiamondPricePrediction\src')
-# print(sys.path)
 from src.logger import logging
 from src.exception import CustomException
 import pandas as pd
