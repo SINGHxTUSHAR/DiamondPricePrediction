@@ -16,7 +16,7 @@ This project aims to predict the price of diamonds using regression algorithms. 
 - [Contributing](#contributing)
 - [License](#license)
 
-## Features
+## Features :
 The goal is to predict `price` of given diamond (Regression Analysis).
 
 There are 10 independent variables (including `id`):
@@ -35,12 +35,7 @@ There are 10 independent variables (including `id`):
 Target variable:
 * `price`: Price of the given Diamond.
 
-#### Dataset Source Link :
-[https://www.kaggle.com/competitions/playground-series-s3e8/data?select=train.csv](https://www.kaggle.com/competitions/playground-series-s3e8/data?select=train.csv)
-
-
-
-## Requirements
+## Requirements :
 
 Ensure you have the following dependencies installed:
 
@@ -52,3 +47,88 @@ You can install the required Python packages using:
 
 ```bash
 pip install -r requirements.txt
+```
+## Setup :
+
+- Clone the repository:
+```bash
+git clone https://github.com/SINGHxTUSHAR/diamond-price-prediction.git
+cd diamond-price-prediction
+```
+- Create a virtual environment (optional but recommended):
+```bash
+python -m venv venv
+```
+- Activate the virtual environment:
+  - On Windows:
+   ```bash
+   venv\Scripts\activate
+   ```
+  - On macOS/Linux:
+  ```bash
+  source venv/bin/activate
+  ```
+
+## Usage :
+
+- Open the Jupyter Notebook:
+```bash
+jupyter notebook
+```
+- Navigate to the Diamond_Price_Prediction.ipynb notebook and open it.
+- Follow the instructions in the notebook to run the code cells.
+
+
+## Dataset Source Link :
+[https://www.kaggle.com/competitions/playground-series-s3e8/data?select=train.csv](https://www.kaggle.com/competitions/playground-series-s3e8/data?select=train.csv)
+
+## Models :
+
+- Linear Regression
+- Lasso(L1 Regularization)
+- Ridge(L2 Regularization)
+- ElasticNet
+- DecisionTreeRegressor
+- RandomForestRegressor
+- SVR(Support Vector Regression)
+
+## Results :
+
+![image](https://github.com/SINGHxTUSHAR/DiamondPricePrediction/assets/113624520/f2e41112-c8a9-42c9-98c2-621e11c459fa)
+![image](https://github.com/SINGHxTUSHAR/DiamondPricePrediction/assets/113624520/c3910f80-9504-4a1c-8ea9-72239e768d7c)
+![image](https://github.com/SINGHxTUSHAR/DiamondPricePrediction/assets/113624520/15b945c5-fa5f-4972-b4b6-1d91855a3f82)
+![image](https://github.com/SINGHxTUSHAR/DiamondPricePrediction/assets/113624520/5acd0ede-c093-4872-ae9f-f0fcdde0bedb)
+![image](https://github.com/SINGHxTUSHAR/DiamondPricePrediction/assets/113624520/dec5e6a9-694d-4c38-8ab8-2ac516ff39c3)
+
+
+## Contributing :
+If you'd like to contribute to this project, please follow the standard GitHub fork and pull request process. Contributions, issues, and feature requests are welcome!
+
+## License :
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
