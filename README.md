@@ -94,11 +94,35 @@ jupyter notebook
 
 ## Results :
 
-![image](https://github.com/SINGHxTUSHAR/DiamondPricePrediction/assets/113624520/f2e41112-c8a9-42c9-98c2-621e11c459fa)
-![image](https://github.com/SINGHxTUSHAR/DiamondPricePrediction/assets/113624520/c3910f80-9504-4a1c-8ea9-72239e768d7c)
-![image](https://github.com/SINGHxTUSHAR/DiamondPricePrediction/assets/113624520/15b945c5-fa5f-4972-b4b6-1d91855a3f82)
-![image](https://github.com/SINGHxTUSHAR/DiamondPricePrediction/assets/113624520/5acd0ede-c093-4872-ae9f-f0fcdde0bedb)
-![image](https://github.com/SINGHxTUSHAR/DiamondPricePrediction/assets/113624520/dec5e6a9-694d-4c38-8ab8-2ac516ff39c3)
+* LinearRegression Model Training Performance :
+   - RMSE: 1013.9047094344004
+   - MAE: 674.0255115796832
+   - R2 score 93.68908248567512
+
+* Lasso Model Training Performance :
+  - RMSE: 1013.8784226767013
+  - MAE: 675.0716923362161
+  - R2 score 93.68940971841704
+
+* Ridge Model Training Performance :
+  - RMSE: 1013.9059272771647
+  - MAE: 674.0555800798206
+  - R2 score 93.68906732505937
+
+* Elastic net Model Training Performance :
+  - RMSE: 1533.4162456064048
+  - MAE: 1060.7368759154729
+  - R2 score 85.56494831165182
+
+* DecisionTreeRegressor Model Training Performance :
+  - RMSE: 838.7860494085679
+  - MAE: 423.35310763649716
+  - R2 score 95.68082679027064
+
+* RandomForestRegressor Model Training Performance :
+  - RMSE: 610.7311352754283
+  - MAE: 311.5482746987208
+  - R2 score 97.71019581207089
 
 
 ## Contributing :
