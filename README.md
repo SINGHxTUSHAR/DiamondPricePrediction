@@ -105,7 +105,7 @@ jupyter notebook
 If you'd like to contribute to this project, please follow the standard GitHub fork and pull request process. Contributions, issues, and feature requests are welcome!
 
 ## License :
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the <a href="https://github.com/SINGHxTUSHAR/DiamondPricePrediction/blob/main/LICENSE">MIT License</a> - see the LICENSE file for details.
 
 
 
